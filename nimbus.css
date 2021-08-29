@@ -1,0 +1,48 @@
+
+:root {
+    --table-border-dark : #000;
+    --onyx-and-white-8: #131417;
+    --davys-grey: #000;
+}
+
+
+.theme-dark .background-onyx-dark, .theme-dark note, .theme-dark .note-text-loader {
+    background-color: #131417 !important;
+}
+
+
+.theme-brand-dark-ios .nedit-root div.table-wrapper table tbody:not([data-palette-bg]):not([data-palette-bg-rgb]), .theme-dark .nedit-root div.table-wrapper table tbody:not([data-palette-bg]):not([data-palette-bg-rgb]) {
+    background-color: #1e1f26 !important;
+}
+
+.theme-brand-dark-ios .nedit-root div.table-wrapper table tbody td:not([data-palette-bg]):not([data-palette-bg-rgb]), .theme-dark .nedit-root div.table-wrapper table tbody td:not([data-palette-bg]):not([data-palette-bg-rgb]) {
+    background-color: #1e1f26 !important;
+}
+
+/* left bar */
+.theme-dark .background-default_platinum, .theme-dark sidebar {
+    background-color: #1e1f26 !important;
+}
+
+/* Notes List */
+.theme-dark .background-default_light, .theme-dark notes-list-view {
+    background-color: #131417 !important;
+}
+
+.theme-dark .background-active-note, .theme-dark .notes-list-item-wrapper.active {
+    background-color: #080808 !important;
+}
+
+.theme-dark .background-context, .theme-dark .notes-list-item-wrapper:hover {
+    background-color: #080808 !important;
+    cursor: pointer;
+}
+
+/* divder in notes list */
+.notes-list-item-wrapper::after {
+    background-color: #1e1f26 !important;
+}
+
+.note-top-panel--wrapper {
+    background-color: #1e1f26 !important;
+}
